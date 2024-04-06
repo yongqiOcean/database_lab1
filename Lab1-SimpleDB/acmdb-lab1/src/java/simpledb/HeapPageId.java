@@ -43,8 +43,8 @@ public class HeapPageId implements PageId {
     public int hashCode() {
         // some code goes here
         // throw new UnsupportedOperationException("implement this");
-        final int prime1 = 31;
-        final int prime2 = 37;
+        final int prime1 = 21;
+        final int prime2 = 24;
         return prime1 * this.tableId + prime2 * this.pgNo;
     }
 
